@@ -1,0 +1,6 @@
+# Never commit a collected archive: it carries hostnames, serial numbers and
+# a full sweep of system configuration from a real node.
+gpu_rma_*/
+gpu_rma_*.tar.gz
+tests/test-runs/
+*.log
